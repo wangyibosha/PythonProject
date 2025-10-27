@@ -1,7 +1,7 @@
 from appium.webdriver.common.appiumby import AppiumBy
 
-import test_tj_login
-from test_tj_login import TestLogin
+import normalLogin
+from normalLogin import TestLogin
 
 class TestSearch:
     def test_search_home(self,app_driver):
@@ -12,7 +12,7 @@ class TestSearch:
 
 
 if __name__ == '__main__':
-    login = test_tj_login.TestLogin()
+    login = normalLogin.TestLogin()
     login.test_tourist_login()
     home_search = TestSearch()
     home_search.test_search_home()

@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d40b6a0e-d03b-4a77-88d8-b891e36046ea" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jntest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_tj_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tjtest.py" afterDir="false" />
+    <list default="true" id="d40b6a0e-d03b-4a77-88d8-b891e36046ea" name="更改" comment="2025.10.27">
+      <change afterPath="$PROJECT_DIR$/touristLogin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxLogin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jntest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_tj_home_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_tj_home_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_tj_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/normalLogin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tjtest.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "wangyibosha"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/wangyibosha/PythonProject.git",
+    "accountId": "53c5de04-fc12-4297-93c6-3e0fb921bb99"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/__init__.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/support/wait.py" root0="SKIP_INSPECTION" />
@@ -50,6 +60,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python 测试.Python 测试 (normalLogin.py 内).executor": "Run",
     "Python 测试.Python 测试 (test_tj_home_search.py 内).executor": "Run",
     "Python 测试.Python 测试 (test_tj_login.py 内).executor": "Run",
     "Python 测试.test_tj_home_search.TestSearch.test_search_home 的 Python 测试.executor": "Run",
@@ -66,7 +77,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "E:/python  progress",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "configurable.group.language"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -74,7 +85,7 @@
       <recent name="E:\python  progress\PythonProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Python 测试.Python 测试 (test_tj_home_search.py 内)">
+  <component name="RunManager" selected="Python 测试.Python 测试 (normalLogin.py 内)">
     <configuration name="test_tj_home_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
@@ -97,6 +108,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python 测试 (normalLogin.py 内)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/normalLogin.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python 测试 (test_tj_home_search.py 内)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
@@ -112,7 +138,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python 测试 (test_tj_login.py 内)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="normalLogin.TestLogin 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,8 +149,8 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_tj_login.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;normalLogin.TestLogin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="test_tj_home_search.TestSearch.test_search_home 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -142,35 +168,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test_tj_login.TestLogin 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_tj_login.TestLogin&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.test_tj_home_search" />
+      <item itemvalue="Python 测试.Python 测试 (normalLogin.py 内)" />
       <item itemvalue="Python 测试.Python 测试 (test_tj_home_search.py 内)" />
+      <item itemvalue="Python 测试.test_tj_normalLogin.TestLogin 的 Python 测试" />
       <item itemvalue="Python 测试.test_tj_home_search.TestSearch.test_search_home 的 Python 测试" />
-      <item itemvalue="Python 测试.Python 测试 (test_tj_login.py 内)" />
-      <item itemvalue="Python 测试.test_tj_login.TestLogin 的 Python 测试" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python 测试.Python 测试 (normalLogin.py 内)" />
         <item itemvalue="Python 测试.Python 测试 (test_tj_home_search.py 内)" />
         <item itemvalue="Python 测试.test_tj_home_search.TestSearch.test_search_home 的 Python 测试" />
         <item itemvalue="Python.test_tj_home_search" />
-        <item itemvalue="Python 测试.test_tj_login.TestLogin 的 Python 测试" />
-        <item itemvalue="Python 测试.Python 测试 (test_tj_login.py 内)" />
+        <item itemvalue="Python 测试.test_tj_normalLogin.TestLogin 的 Python 测试" />
       </list>
     </recent_temporary>
   </component>
@@ -190,20 +201,24 @@
       <option name="presentableId" value="Default" />
       <updated>1757929812872</updated>
     </task>
+    <task id="LOCAL-00001" summary="2025.10.27">
+      <option name="closed" value="true" />
+      <created>1761550107451</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761550107451</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2025.10.27" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025.10.27" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test_tj_home_search.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/test_tj_login.py" line="10">
+      <inline-watch fileUrl="file://$PROJECT_DIR$/normalLogin.py" line="10">
         <watch expression="setup_method" language="Python" />
       </inline-watch>
     </watches-manager>
